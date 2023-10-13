@@ -64,7 +64,114 @@
   .clear {
     flex: none;
   }
-  
+
+
+  /* Experiences */
+  counter__wrapper {
+    margin-top: 1.6rem;
+}
+.section__subtitle {
+  background: #faa935;
+  background: var(--secondary-color);
+  border-radius: 50px;
+  color: #0b2727;
+  color: var(--heading-color);
+  font-family: Island Moments,cursive;
+  font-family: var(--subtitle-font-name);
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 0 1rem 0 .5rem;
+  width: -webkit-max-content;
+  width: max-content;
+}
+
+.gap-5 {
+  gap: 3rem!important;
+}
+align-items-center {
+    align-items: center!important;
+}
+
+  /* Subcribie */
+  .newsletter__content {
+    padding: 50px 0;
+  }
+:root {
+  --primary-color: #ff7e01;
+  --secondary-color: #faa935;
+  --heading-color: #0b2727;
+  --text-color: #6e7074;
+  --font-name: "Montserrat",sans-serif;
+  --subtitle-font-name: "Island Moments",cursive;
+}
+
+.newsletter__content h2 {
+  font-size: 2rem;
+  margin-bottom: 1.4rem;
+}
+
+.newsletter__input {
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .8rem;
+  padding: .4rem;
+}
+
+.newsletter__input input {
+  border: none;
+  color: var(--heading-color);
+  font-size: 1rem;
+}
+
+.newsletter__input {
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .8rem;
+  padding: .4rem;
+}
+
+.newsletter__btn {
+  background: var(--secondary-color)!important;
+  color: #fff!important;
+  font-size: 1rem!important;
+  padding: .5rem 1.5rem!important;
+}
+
+newsletter__content {
+  padding: 50px 0;
+}
+
+.subcribe{
+  background: #cae5f4;
+  margin-top: 3rem;
+  padding: 0;
+}
+
+counter__wrapper {
+  margin-top: 1.6rem;
+}
+
+.counter__box span {
+  align-items: center;
+  background: #ff7e01;
+  background: var(--primary-color);
+  border-radius: 10px 5px 10px 5px;
+  color: #fff;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 600;
+  height: 70px;
+  justify-content: center;
+  margin: auto;
+  width: 70px;
+}
+
 /* FOOTER */
 .footer {
   padding-bottom: 30px;
@@ -83,3 +190,4 @@
   font-size: 1.5rem;
   text-decoration: none;
 }
+
