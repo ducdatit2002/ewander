@@ -5,15 +5,16 @@ import tourImg04 from "../images/tour-img04.jpg";
 import tourImg05 from "../images/tour-img05.jpg";
 import tourImg06 from "../images/tour-img06.jpg";
 import tourImg07 from "../images/tour-img07.jpg";
+import tourImg08 from "../images/tour-img08.jpg";
 
 const tours = [
   {
     id: "01",
-    title: "Westminister Bridge",
-    city: "London",
+    title: "Mù Cang Chải, Yên Bái",
+    city: "Yên Bái",
     distance: 300,
     address: 'SomeWhere',
-    price: 99,
+    price: '4,690,000',
     maxGroupSize: 10,
     desc: "this is the description",
     reviews: [
@@ -32,11 +33,11 @@ const tours = [
   },
   {
     id: "02",
-    title: "Bali, Indonesia",
-    city: "Indonesia",
+    title: "Pù Luông, Thanh Hóa",
+    city: "Thanh Hóa",
     distance: 400,
     address: 'SomeWhere',
-    price: 96,
+    price: '2,790,000 ',
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -51,11 +52,11 @@ const tours = [
   },
   {
     id: "03",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "Tràng An, Ninh Bình",
+    city: "Ninh Bình",
     distance: 500,
     address: 'SomeWhere',
-    price: 76,
+    price: '3,890,000',
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -70,11 +71,11 @@ const tours = [
   },
   {
     id: "04",
-    title: "Beautiful Sunrise, Thailand",
-    city: "Thailand",
+    title: "Vịnh Hạ Long, Quảng Ninh",
+    city: "Quảng Ninh",
     distance: 500,
     address: 'SomeWhere',
-    price: 85,
+    price: '4,490,000',
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -89,11 +90,11 @@ const tours = [
   },
   {
     id: "05",
-    title: "Nusa Pendia Bali, Indonesia",
-    city: "Indonesia",
+    title: "Hội An, Quảng Nam",
+    city: "Quảng Nam",
     distance: 500,
     address: 'SomeWhere',
-    price: 75,
+    price: '2,490,000',
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -108,11 +109,11 @@ const tours = [
   },
   {
     id: "06",
-    title: "Cherry Blossoms Spring",
-    city: "Japan",
+    title: "Đà Lạt, Lâm Đồng",
+    city: "Lâm Đồng",
     distance: 500,
     address: 'SomeWhere',
-    price: 88,
+    price: '3,390,000',
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -127,11 +128,11 @@ const tours = [
   },
   {
     id: "07",
-    title: "Holmen Lofoten",
-    city: "France",
+    title: "Côn Đảo, Bà Rịa - Vũng Tàu",
+    city: "Bà Rịa - Vũng Tàu",
     distance: 500,
     address: 'SomeWhere',
-    price: 79,
+    price: '3,190,000',
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -146,17 +147,17 @@ const tours = [
   },
   {
     id: "08",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "Phú Quốc, Kiên Giang",
+    city: "Kiên Giang",
     distance: 500,
     address: 'SomeWhere',
-    price: 99,
+    price: '4,790,000 ',
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
     ],
     avgRating: 4.5,
-    photo: tourImg03,
+    photo: tourImg08,
     featured: false,
   },
 ];
