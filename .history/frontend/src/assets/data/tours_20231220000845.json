@@ -185,7 +185,31 @@
       "rating": 4.6
     }],
 
-    "photo": "/tour-images/tour-img08.jpg",
+    "photo": "/tour-images/tour-img03.jpg",
     "featured": true
+  },
+  {
+    "title": "Jaflong, Sylhet-2",
+    "city": "Sylhet",
+    "address": "Somewhere in Sylhet",
+    "distance": 100,
+    "price": 99,
+    "maxGroupSize": 5,
+    "desc": "this is the description",
+    "reviews": [      {
+      "name": "jhon doe",
+      "rating": 4.6
+    },
+    {
+      "name": "jhon doe",
+      "rating": 4.6
+    }
+  ,      {
+    "name": "jhon doe",
+    "rating": 4.6
+  }],
+
+    "photo": "/tour-images/tour-img08.jpg",
+    "featured": false
   }
 ]
