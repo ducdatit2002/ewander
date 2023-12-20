@@ -36,7 +36,7 @@ Click here --> <a href="" target="_blank">EWander Project</a>
 | Lam Đạt     |  Frontend  |   
 | Mạnh Huy     |  Backend  |   
 | Công Tâm     |  Backend, PowerPoint  |   
-| Phước Đẫu     | Business analyst   |   
+| Phước Đẫu     | Business analyst, Report   |   
 | Hoàng Đức     |  Frontend  |   
 | Minh Thắng     | Business analyst, PowerPoint   |   
 | Vũ Bão     |  Frontend  |   
