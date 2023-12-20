@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import CommonSection from '../shared/CommonSection'
-import tourData from '../assets/data/tours.json'
+import tourData from '../assets/data/tours.'
 import '../styles/tour.css'
 import TourCard from './../shared/TourCard'
 import SearchBar from './../shared/SearchBar'

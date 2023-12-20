@@ -4,7 +4,7 @@
     "city": "Yên Bái",
     "address": "Việt Nam",
     "distance": 300,
-    "price": 4690000,
+    "price": "4.690.000",
     "maxGroupSize": 10,
     "desc": "Mù Cang Chải - Yên Bái được mệnh danh là thiên đường ruộng bậc thang",
     "reviews": [      {
@@ -20,7 +20,7 @@
     "city": "Thanh Hóa",
     "address": "Việt Nam",
     "distance": 400,
-    "price": 2790000,
+    "price": "27",
     "maxGroupSize": 8,
     "desc": "Đây là khu bảo tồn thiên nhiên nằm trên địa bàn huyện Bá Thước và Quan Hóa, tỉnh Thanh Hóa. ",
     "reviews": [      {
