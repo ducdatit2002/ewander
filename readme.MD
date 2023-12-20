@@ -1,6 +1,6 @@
 
 # Software Engineering Project - EWANDER TEAM
-Click here --> <a href="ewanderteam.surge.sh/" target="_blank">EWander Project</a>
+Click here --> <a href="https://ewanderteam.surge.sh/" target="_blank">EWander Project</a>
 
 ### Group: EWander TEAM
 ### Our team member
