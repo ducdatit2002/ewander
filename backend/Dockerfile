@@ -1,23 +1,20 @@
-# Use an official Node runtime as a parent image
-FROM node:16
+# Use Node 16 alpine as parent image
+FROM node:16-alpine
 
-# Set the working directory in the container
-WORKDIR /usr/src/app
+# Change the working directory on the Docker image to /app
+WORKDIR /app
 
-# Copy the package.json and package-lock.json files
-COPY package*.json ./
+# Copy package.json and package-lock.json to the /app directory
+COPY package.json package-lock.json ./
 
-# Install any needed packages specified in package.json
-RUN yarn install
+# Install dependencies
+RUN npm install
 
-# If you are building your code for production
-# RUN npm ci --only=production
-
-# Bundle your app's source code inside the Docker image
+# Copy the rest of project files into this image
 COPY . .
 
-# Your app binds to port 3000 so you'll use the EXPOSE instruction to have it mapped by the docker daemon
+# Expose application port
 EXPOSE 3000
 
-# Define the command to run your app using CMD which defines your runtime
-CMD [ "node", "index.js" ]
+# Start the application
+CMD npm start
